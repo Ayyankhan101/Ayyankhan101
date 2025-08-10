@@ -1,4 +1,4 @@
-<h1 align="center">Hi, I'm Ayan khan 👋</h1>
+<h1 align="center">Hi, I'm Ayyan khan 👋</h1>
 <p align="center">
   📊 Data Analyst <br>
   <a href="https://github.com/Ayyankhan101">GitHub</a> • 
@@ -23,11 +23,8 @@ Python, SQL, Pandas, NumPy, Matplotlib, Scikit-learn, Power BI, Excel
 🧪 **Notable Projects**  
 Here are some of my key projects that demonstrate my skills in data analysis, machine learning, and data visualization. Each project includes a detailed README with insights into the problem, methodology, and results.
 
--   **Project Title 1:** A brief description of the project, highlighting the tools and techniques used (e.g., "Developed a predictive model for customer churn using Python and scikit-learn, achieving 90% accuracy.").
--   **Project Title 2:** Another brief description, focusing on a different aspect (e.g., "Created interactive dashboards in Power BI to visualize sales trends and identify key performance indicators.").
--   **Project Title 3:** A third project example (e.g., "Performed an in-depth analysis of economic indicators using R and time series analysis techniques to forecast market behavior.").
+-   **Youtube vs Spodify Views:** The goal is to uncover insights into music popularity across these two major platforms, understand the characteristics of popular songs, and explore the relationship between audio features and audience engagement (e.g., "Developed a predictive model for customer churn using Python and scikit-learn, achieving 90% accuracy.").
+-   **AI Task Analysis:** Analyzes AI tasks using EDA, NLP, clustering, and classification. Categorizes tasks and predicts types from descriptions, documented in a Jupyter Notebook  (e.g., "Created interactive dashboards in Streamlit to visualize sales trends and identify key performance indicators.").
+-   **RL Trading Bot:** This project is an intelligent Reinforcement Learning (RL) Bitcoin trading bot. It utilizes Deep Q-Network (DQN) variants, advanced market indicators, and sentiment analysis for trading, featuring comprehensive backtesting and performance analytics.  (e.g., "Performed an in-depth analysis of economic indicators using python and time series analysis techniques to forecast market behavior.").
 
 Feel free to explore my repositories for more details on these and other projects!
-
----
-# Ayyankhan101
