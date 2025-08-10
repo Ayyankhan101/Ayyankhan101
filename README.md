@@ -8,19 +8,19 @@
 
 ---
 
-🎓 <h3>🎓Education & Background</h3> 
+ <h3>🎓Education & Background</h3> 
 I am a passionate Data Analyst with a strong foundation in data-driven decision-making. My journey in this field has been driven by a curiosity to uncover insights from data and to use those insights to solve real-world problems.
 
-📊 <h3>Fields of Interest</h3>  
+ <h3>📊Fields of Interest</h3>  
 - Data Analysis & Visualization 
 - Machine Learning & Predictive Modeling
 - Business Intelligence & Reporting
 - Statistical Analysis & Econometrics
 
-💻 <h3>Technical Skills</h3>  
+ <h3>💻Technical Skills</h3>  
 Python, SQL, Pandas, NumPy, Matplotlib, Scikit-learn, Power BI, Excel
 
-🧪 <h3>Notable Projects</h3>  
+ <h3>🧪Notable Projects</h3>  
 Here are some of my key projects that demonstrate my skills in data analysis, machine learning, and data visualization. Each project includes a detailed README with insights into the problem, methodology, and results.
 
 -   <h3>Youtube vs Spodify Views:</h3> The goal is to uncover insights into music popularity across these two major platforms, understand the characteristics of popular songs, and explore the relationship between audio features and audience engagement (e.g., "Developed a predictive model for customer churn using Python and scikit-learn, achieving 90% accuracy.").
