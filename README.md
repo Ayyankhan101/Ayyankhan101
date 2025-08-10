@@ -23,7 +23,7 @@ Python, SQL, Pandas, NumPy, Matplotlib, Scikit-learn, Power BI, Excel
 🧪 **Notable Projects**  
 Here are some of my key projects that demonstrate my skills in data analysis, machine learning, and data visualization. Each project includes a detailed README with insights into the problem, methodology, and results.
 
--   <h3>**Youtube vs Spodify Views:**<h3> The goal is to uncover insights into music popularity across these two major platforms, understand the characteristics of popular songs, and explore the relationship between audio features and audience engagement (e.g., "Developed a predictive model for customer churn using Python and scikit-learn, achieving 90% accuracy.").
+-   <h3>**Youtube vs Spodify Views:**</h3> The goal is to uncover insights into music popularity across these two major platforms, understand the characteristics of popular songs, and explore the relationship between audio features and audience engagement (e.g., "Developed a predictive model for customer churn using Python and scikit-learn, achieving 90% accuracy.").
     
 -   **AI Task Analysis:** Analyzes AI tasks using EDA, NLP, clustering, and classification. Categorizes tasks and predicts types from descriptions, documented in a Jupyter Notebook  (e.g., "Created interactive dashboards in Streamlit to visualize sales trends and identify key performance indicators.").
    
