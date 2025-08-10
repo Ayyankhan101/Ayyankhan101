@@ -8,7 +8,7 @@
 
 ---
 
-🎓 <h3>Education & Background</h3> 
+🎓 <h3>🎓Education & Background</h3> 
 I am a passionate Data Analyst with a strong foundation in data-driven decision-making. My journey in this field has been driven by a curiosity to uncover insights from data and to use those insights to solve real-world problems.
 
 📊 <h3>Fields of Interest</h3>  
