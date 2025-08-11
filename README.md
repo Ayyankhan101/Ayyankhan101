@@ -4,7 +4,6 @@
   <a href="https://github.com/Ayyankhan101">GitHub</a> • 
   <a href="https://www.linkedin.com/in/muhammad-ayyan-khan-1a449129a">LinkedIn</a> • 
   <a href="https://share.streamlit.io/user/ayyankhan101">Streamlit</a>
-  <a href="ayyan9466@gmail.com">Gmail</a>
 </p>
 
 ---
