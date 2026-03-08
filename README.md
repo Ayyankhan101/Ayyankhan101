@@ -45,6 +45,8 @@ Ayyan = {
 
 ---
 
+<div align="center">
+
 ## 🚀 Tech Stack
 
 **Languages & Core**
@@ -80,6 +82,7 @@ Ayyan = {
 ![Excel](https://img.shields.io/badge/Excel-1D6F42?style=flat-square&logo=microsoft-excel&logoColor=white)
 
 ---
+</div>
 
 ## 📊 GitHub Stats
 
