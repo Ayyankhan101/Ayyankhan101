@@ -31,10 +31,9 @@ Ayyan = {
 ```
 
 ---
+<div align="center">
 
 ## 🌐 Connect With Me
-
-<div align="center">
 
 [![LinkedIn](https://img.shields.io/badge/LinkedIn-0A66C2?style=for-the-badge&logo=linkedin&logoColor=white)](https://linkedin.com/in/muhammad-ayyan-khan-1a449129a)
 [![Streamlit](https://img.shields.io/badge/Streamlit-FF4B4B?style=for-the-badge&logo=streamlit&logoColor=white)](https://share.streamlit.io/user/ayyankhan101)
@@ -84,9 +83,11 @@ Ayyan = {
 ---
 </div>
 
-## 📊 GitHub Stats
+
 
 <div align="center">
+    
+## 📊 GitHub Stats
 
 <img height="180em" src="https://github-readme-stats.vercel.app/api?username=Ayyankhan101&show_icons=true&theme=github_dark&hide_border=true&bg_color=0d1117&title_color=58A6FF&icon_color=39d0d8&text_color=c9d1d9&include_all_commits=true&count_private=true"/>
 <img height="180em" src="https://github-readme-stats.vercel.app/api/top-langs/?username=Ayyankhan101&layout=compact&theme=github_dark&hide_border=true&bg_color=0d1117&title_color=58A6FF&text_color=c9d1d9&langs_count=8"/>
