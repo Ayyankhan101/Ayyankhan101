@@ -17,9 +17,9 @@
 ## 👋 About Me
 
 ```python
-ayyan = {
+Ayyan = {
     "name"      : "Muhammad Ayyan Khan",
-    "location"  : "Karachi, Pakistan 🇵🇰",
+    "location"  : "Peshawar, Pakistan 🇵🇰",
     "role"      : "Data Analyst & ML Engineer",
     "education" : "Bachelor's in Data Science (Current)",
     "work"      : "Freelance Data Analyst — Remote & Flexible",
