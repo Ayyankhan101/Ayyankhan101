@@ -75,7 +75,8 @@ I'm a **Data Analyst** with a passion for transforming complex datasets into mea
 
 ![Top Languages](https://github-readme-stats-fast.vercel.app/api/top-langs/?username=Ayyankhan101&layout=compact&theme=gradient&hide_border=false&bg_color=0D1117&title_color=58A6FF&text_color=7D8590)
 
-![GitHub Streak](https://streak-stats.demolab.com?user=Ayyankhan101&background=0D1117&hide_border=false)
+[![GitHub Streak](https://streak-stats.demolab.com?user=Ayyankhan101&theme=dark)](https://git.io/streak-stats)
+
 
 
 </div>
