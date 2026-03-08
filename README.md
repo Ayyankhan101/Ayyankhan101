@@ -101,12 +101,9 @@ Ayyan = {
 </div>
 
 ---
-
+<div align="center">
+    
 ## 🏆 Featured Projects
-
-> Sorted by recency · All include full EDA, visualizations & Jupyter notebooks
-
----
 
 ### 🎓 [Student Digital Life vs Academic Results](https://github.com/Ayyankhan101/Student-digital-life-vs-acdemaic-result-analysis) &nbsp;`Mar 2026`
 
@@ -169,10 +166,12 @@ A deep dive into what makes a song popular — full data cleaning pipeline, expl
 Predicts customer churn with **90%+ accuracy** using ML models. Includes a live Streamlit web app for real-time analysis and a full Jupyter notebook covering the complete model development workflow.
 
 ---
+</div>
+
+<div align="center">
 
 ## 📈 Experience & Achievements
 
-<div align="center">
 
 | 🎓 Education | 💼 Experience | 🏅 Open Source |
 |:---:|:---:|:---:|
