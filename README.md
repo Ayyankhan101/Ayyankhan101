@@ -73,7 +73,7 @@ I'm a **Data Analyst** with a passion for transforming complex datasets into mea
 
 ![GitHub Stats](https://github-readme-stats-fast.vercel.app/api?username=Ayyankhan101&show_icons=true&theme=gradient&hide_border=false&bg_color=0D1117&title_color=58A6FF&icon_color=58A6FF&text_color=7D8590)
 
-![Top Languages](https://github-readme-stats-fast.vercel.app/api/top-langs/?username=Ayyankhan101&layout=compact&theme=gradient&hide_border=false&bg_color=0D1117&title_color=58A6FF&text_color=7D8590)
+![Top Languages](https://github-readme-stats-fast.vercel.app/api/top-langs/?username=Ayyankhan101&layout=compact&theme=gradient&hide_border=false&bg_color=fafafa&title_color=58A6FF&text_color=7D8590)
 
 ![GitHub Streak](https://streak-stats.demolab.com?user=Ayyankhan101&theme=gradient&hide_border=false)
 
