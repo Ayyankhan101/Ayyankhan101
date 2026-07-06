@@ -27,6 +27,8 @@ Ayyan = {
 
 I'm a Data Analyst and ML Engineer who turns messy data into actionable insights. My work spans the full pipeline — from exploratory analysis and visualization to building production-ready ML systems with experiment tracking, data versioning, and deployment. Lately I've been diving into **Rust** to build fast developer tooling alongside my data/ML work. I believe the best solutions come from understanding both the math and the engineering.
 
+I'm most excited when a model goes from Jupyter notebook to production pipeline — watching data transform into decisions is what keeps me coding. 🚀
+
 <div align="center">
 
 ## 🌐 Connect
@@ -81,6 +83,20 @@ I'm a Data Analyst and ML Engineer who turns messy data into actionable insights
 <img height="180em" src="https://github-readme-stats.vercel.app/api/top-langs/?username=Ayyankhan101&layout=compact&theme=github_dark&hide_border=true&bg_color=0d1117&title_color=58A6FF&text_color=c9d1d9&langs_count=8"/>
 
 [![GitHub Streak](https://streak-stats.demolab.com?user=Ayyankhan101&theme=github-dark-blue&hide_border=true&background=0d1117&ring=58A6FF&fire=39d0d8&currStreakLabel=58A6FF)](https://git.io/streak-stats)
+
+</div>
+
+<div align="center">
+
+## 🚧 Currently Building
+
+- 🧠 **Git-Mind** — multi-agent code analysis platform (FastAPI + LangGraph + Rust)
+- 🛡️ **crate-security-auditor** — Rust crate vulnerability scanner
+- 📦 **Dep-Age** — CLI dependency age checker (Rust, npm, PyPI)
+
+*Always looking for interesting problems to solve. If you have a data challenge or want to collaborate, reach out!*
+
+📧 **[ayyan9466@gmail.com](mailto:ayyan9466@gmail.com)**
 
 </div>
 
