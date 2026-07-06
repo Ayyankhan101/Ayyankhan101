@@ -25,6 +25,8 @@ Ayyan = {
 }
 ```
 
+I'm a Data Analyst and ML Engineer who turns messy data into actionable insights. My work spans the full pipeline — from exploratory analysis and visualization to building production-ready ML systems with experiment tracking, data versioning, and deployment. Lately I've been diving into **Rust** to build fast developer tooling alongside my data/ML work. I believe the best solutions come from understanding both the math and the engineering.
+
 <div align="center">
 
 ## 🌐 Connect
@@ -40,26 +42,26 @@ Ayyan = {
 
 ## 🛠️ Tech Stack
 
-**Languages**  
+**Languages** — Python for data/ML, Rust for performant tooling, SQL for databases  
 ![Python](https://img.shields.io/badge/Python-3776AB?style=flat-square&logo=python&logoColor=white)
 ![SQL](https://img.shields.io/badge/SQL-003B57?style=flat-square&logo=postgresql&logoColor=white)
 ![Rust](https://img.shields.io/badge/Rust-000000?style=flat-square&logo=rust&logoColor=white)
 
-**Data & Visualization**  
+**Data & Visualization** — wrangling, analysis, and interactive dashboards  
 ![Pandas](https://img.shields.io/badge/Pandas-150458?style=flat-square&logo=pandas&logoColor=white)
 ![NumPy](https://img.shields.io/badge/NumPy-013243?style=flat-square&logo=numpy&logoColor=white)
 ![Matplotlib](https://img.shields.io/badge/Matplotlib-11557c?style=flat-square&logo=python&logoColor=white)
 ![Seaborn](https://img.shields.io/badge/Seaborn-3776AB?style=flat-square&logo=python&logoColor=white)
 ![Plotly](https://img.shields.io/badge/Plotly-3F4F75?style=flat-square&logo=plotly&logoColor=white)
 
-**ML & AI**  
+**ML & AI** — from classic sklearn to deep learning and LLM agent frameworks  
 ![Scikit-learn](https://img.shields.io/badge/Scikit--learn-F7931E?style=flat-square&logo=scikit-learn&logoColor=white)
 ![TensorFlow](https://img.shields.io/badge/TensorFlow-FF6F00?style=flat-square&logo=tensorflow&logoColor=white)
 ![PyTorch](https://img.shields.io/badge/PyTorch-EE4C2C?style=flat-square&logo=pytorch&logoColor=white)
 ![HuggingFace](https://img.shields.io/badge/HuggingFace-FFD21E?style=flat-square&logo=huggingface&logoColor=black)
 ![LangGraph](https://img.shields.io/badge/LangGraph-412991?style=flat-square&logo=langchain&logoColor=white)
 
-**Tools & Platforms**  
+**Tools & Platforms** — MLOps, APIs, containerization, and version control  
 ![Jupyter](https://img.shields.io/badge/Jupyter-F37626?style=flat-square&logo=jupyter&logoColor=white)
 ![Streamlit](https://img.shields.io/badge/Streamlit-FF4B4B?style=flat-square&logo=streamlit&logoColor=white)
 ![FastAPI](https://img.shields.io/badge/FastAPI-009688?style=flat-square&logo=fastapi&logoColor=white)
@@ -91,11 +93,24 @@ Ayyan = {
 ![Python](https://img.shields.io/badge/Python-3776AB?style=flat-square&logo=python&logoColor=white)
 ![FastAPI](https://img.shields.io/badge/FastAPI-009688?style=flat-square&logo=fastapi&logoColor=white)
 ![LangGraph](https://img.shields.io/badge/LangGraph-412991?style=flat-square&logo=langchain&logoColor=white)
-![Groq](https://img.shields.io/badge/Groq-E55B2A?style=flat-square&logoColor=white)
-![ChromaDB](https://img.shields.io/badge/ChromaDB-FFC107?style=flat-square&logoColor=black)
+![Groq](https://img.shields.io/badge/Groq-E55B2A?style=flat-square&logo=groq&logoColor=white)
+![ChromaDB](https://img.shields.io/badge/ChromaDB-FFC107?style=flat-square&logo=chromadb&logoColor=black)
 ![Rust](https://img.shields.io/badge/Rust-000000?style=flat-square&logo=rust&logoColor=white)
 
-Multi-agent platform that analyzes GitHub repos — architecture, security (semgrep), CVE scan (Rust), Solidity/Web3 audit, RAG chat, PR review, crisis simulation. **8 parallel agents** with FastAPI + LangGraph + Groq + ChromaDB + Rust PyO3.
+A multi-agent platform that orchestrates **8 parallel LangGraph agents** to comprehensively analyze GitHub repositories:
+
+| Agent | Role |
+|---|---|
+| 🏗️ Architecture Analyzer | Maps repo structure, dependency graphs, tech stack |
+| 🔒 Security Scanner | Runs semgrep rulesets against the codebase |
+| 🦀 CVE Scanner | Rust PyO3 module for high-performance vulnerability lookup |
+| 📜 Web3 Auditor | Solidity smart contract vulnerability analysis |
+| 💬 RAG Chat | ChromaDB-powered Q&A over the entire codebase |
+| 👀 PR Reviewer | Automated code review with context-aware suggestions |
+| 🧨 Crisis Simulator | What-if scenario testing for dependency compromises |
+| 📋 Report Generator | Aggregates all agent outputs into structured reports |
+
+**Key decisions:** Uses **Groq** for low-latency LLM inference, **LangGraph** for agent orchestration with state persistence, and **ChromaDB** for vector storage enabling repository-wide semantic search. The Rust CVE scanner runs as a PyO3 module for native-speed vulnerability matching.
 
 ---
 
@@ -103,7 +118,13 @@ Multi-agent platform that analyzes GitHub repos — architecture, security (semg
 
 ![Rust](https://img.shields.io/badge/Rust-000000?style=flat-square&logo=rust&logoColor=white)
 
-Scan Rust crates for **CVEs, license conflicts, and stale dependencies**. Powered by Blocks Network.
+Scans Rust crates for **CVEs, license conflicts, and stale dependencies** via the Blocks Network API.
+
+- **CVE detection** — cross-references crate versions against known vulnerability databases
+- **License scanning** — detects incompatible licenses (GPL vs MIT vs proprietary)
+- **Staleness checks** — flags dependencies that haven't been updated in configurable thresholds
+- **CI-ready** — exits non-zero on findings, supports fail-on severity levels
+- **Output formats** — human-readable TUI and JSON for pipeline consumption
 
 ---
 
@@ -111,7 +132,16 @@ Scan Rust crates for **CVEs, license conflicts, and stale dependencies**. Powere
 
 ![Rust](https://img.shields.io/badge/Rust-000000?style=flat-square&logo=rust&logoColor=white)
 
-CLI tool that checks **how old your dependencies are** by querying crates.io, npm, and PyPI. Features color-coded age status, registry caching, parallel fetches, `--fail-on` for CI, and JSON output. Installable via `cargo install dep-age` or `npm i -g dep-age`.
+A CLI tool that answers one question: **how old are your dependencies?** Queries crates.io, npm, and PyPI registry metadata in parallel.
+
+- **Color-coded aging** — 🟢 fresh, 🟡 aging, 🔴 ancient, ⚫ abandoned
+- **Multi-registry** — supports `Cargo.toml`, `package.json`, `pyproject.toml`, `requirements.txt`
+- **Parallel fetches** — queries registries concurrently for fast results
+- **CI integration** — `--fail-on` flag to enforce freshness thresholds in pipelines
+- **Scriptable** — JSON output for downstream tooling
+- **Caching** — registry responses cached to avoid rate limits on repeated runs
+
+Install: `cargo install dep-age` or `npm i -g dep-age`
 
 ---
 
@@ -119,7 +149,15 @@ CLI tool that checks **how old your dependencies are** by querying crates.io, np
 
 ![Rust](https://img.shields.io/badge/Rust-000000?style=flat-square&logo=rust&logoColor=white)
 
-Blazingly fast **CI/CD pipeline auditor** that validates GitHub Actions, GitLab CI, and CircleCI workflows locally. Catch circular dependencies, secrets issues, and syntax errors instantly — before wasting time on CI failures. Features auto-detection, interactive TUI, watch mode, and pre-commit hooks.
+A **CI/CD pipeline auditor** that catches issues before they hit CI — saving developer time and pipeline credits.
+
+- **Auto-detection** — scans for `.github/workflows/`, `.gitlab-ci.yml`, `.circleci/config.yml`
+- **Circular dependency detection** — finds cycles in job dependency graphs
+- **Secret scanning** — flags hardcoded credentials, API keys, and tokens in workflow files
+- **Syntax validation** — per-provider YAML/JSON validation with actionable error messages
+- **Interactive TUI** — browse and fix issues interactively
+- **Watch mode** — re-scans on file changes during development
+- **Pre-commit hook** — built-in hook registration to catch issues before commit
 
 ---
 
@@ -129,7 +167,13 @@ Blazingly fast **CI/CD pipeline auditor** that validates GitHub Actions, GitLab 
 ![NumPy](https://img.shields.io/badge/NumPy-013243?style=flat-square&logo=numpy&logoColor=white)
 ![Plotly](https://img.shields.io/badge/Plotly-3F4F75?style=flat-square&logo=plotly&logoColor=white)
 
-Real-time **Quant Risk Engine** that performs 10k+ Monte Carlo simulations to project asset price paths and calculate **VaR/CVaR** metrics.
+A real-time quantitative risk engine that runs **10,000+ Monte Carlo simulations** to model financial asset price paths.
+
+- **Monte Carlo engine** — geometric Brownian motion with configurable drift, volatility, and time horizon
+- **Risk metrics** — calculates **Value at Risk (VaR)** and **Conditional VaR (CVaR)** at multiple confidence levels
+- **Real-time visualization** — interactive Plotly charts showing price path distributions, VaR bands, and risk contours
+- **Parameterizable** — adjust simulation count, confidence intervals, and asset parameters at runtime
+- **Portfolio support** — extendable to multi-asset correlation modeling
 
 ---
 </div>
